@@ -1,0 +1,12 @@
+import os
+
+API_ID = os.environ.get("API_ID", "29907731")
+
+API_HASH = os.environ.get("API_HASH", "8f59d632cb374705cfdee46ac17cc3cd")
+
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "8126956732:AAEgnfq24Bkndu0IOPNH9cIVeFAtOVk-MsQ")
+
+#token_cp = os.environ.get("token_cp", "eyJhbGciOiJIUzM4NCIsInR5cCI6IkpXVCJ9.eyJpZCI6MTUwMDM5MzMzLCJvcmdJZCI6MzQ0Nzc3LCJ0eXBlIjoxLCJtb2JpbGUiOiI5MTkyMTQwMzAyNzIiLCJuYW1lIjoiTWVqdSIsImVtYWlsIjoibWVodWxqYWlubW1AZ21haWwuY29tIiwiaXNGaXJzdExvZ2luIjp0cnVlLCJkZWZhdWx0TGFuZ3VhZ2UiOiJFTiIsImNvdW50cnlDb2RlIjoiSU4iLCJpc0ludGVybmF0aW9uYWwiOjAsImlzRGl5IjpmYWxzZSwibG9naW5WaWEiOiJPdHAiLCJmaW5nZXJwcmludElkIjoiMGYxNzE1YWI3MGQyOWE4MmFlNmZmMDQ5MDFiNWIwMWUyMDNkMGJiZTg5YTZmNDI5NzA2YzMwODYzMDBkOTU0YiIsImlhdCI6MTc1MTUxODQyMSwiZXhwIjoxNzUyMTIzMjIxfQ.wnEwjN4YGII7Ob0uT6m_fiwda5wAKBrkWnR4O5fCf0-nLJ8sCWkUYYs3BFnp90kT")
+
+PASS_DB = int(os.environ.get("PASS_DB", "721"))
+

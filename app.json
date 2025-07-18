@@ -1,0 +1,25 @@
+{
+    "name": "Drm Uploader By MJ TEAM",
+    "description": "DRM Uploader",
+    "logo": "https://tinypic.host/image/Screenshot-2025-03-19-06-40-21-30.3gKoOw",
+    "keywords": [
+        "text-video",
+        "video-extract",
+        "pyrogram"
+    ],
+    "repository": "https://github.com/Chiru63019/Classplusdrm",
+    "success_url": "https://telegram.me/skillwithchiru",
+    "stack": "container",
+    "addons": [],
+    "buildpacks": [
+        {
+            "url": "https://github.com/amivin/aria2-heroku.git"
+        },
+        {
+            "url": "heroku/python"
+        },       
+        {
+            "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+        }
+    ]
+    }
